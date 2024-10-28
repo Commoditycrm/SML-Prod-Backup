@@ -1,0 +1,10 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" access="global" >
+    
+	<div class="slds-clearfix">
+        <div class="slds-float_right">
+            			<ui:button label="Contact Support"  buttonTitle="Click here to see SMART Logistics support"  press="{!c.Custom}"/>
+                        <ui:button label="Logout" press="{!c.logout}"/>
+            			
+    	</div>  
+    </div> 
+</aura:component>
